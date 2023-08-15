@@ -2,6 +2,13 @@
 
 <h2>Eventos</h2>
 <hr>
+<!--
+<form action="" class="form-inline">
+  <div class="form-group mb-2">
+    <input type="text" class="form-control mb-2" placeholder="buscar">
+    <button class="btn btn-outline-success">Buscar</button>
+  </div>
+</form> -->
 
 <form action="" class="row g-2">
   <div class="col-auto" style>
@@ -29,7 +36,7 @@
     <tr *ngFor="let evento of eventos">
       <td>{{evento.eventoId}}</td>
       <td></td>
-      <td></td>
+      <td>{{evento.tema}}</td>
       <td></td>
       <td></td>
       <td></td>
